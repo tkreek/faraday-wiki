@@ -1,0 +1,202 @@
+2018-11-07T21:30:01.273Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2018-11-07T21:30:01.273Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2018-11-07T21:30:01.274Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m128[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 128'[39m,
+  stderr: [32m'From https://github.com/FaradayBikes/Faraday-Wiki\n * branch            master     -> FETCH_HEAD\nwarning: fetch updated the current branch head.\nfast-forwarding your working tree from\ncommit 991dda5f3ef9a22530325cb679cb1c15bf507111.\nerror: Your local changes to the following files would be overwritten by merge:\n\tfailure-modes.md\nPlease commit your changes or stash them before you merge.\nAborting\nfatal: Cannot fast-forward your working tree.\nAfter making sure that you saved anything precious from\n$ git diff 991dda5f3ef9a22530325cb679cb1c15bf507111\noutput, run\n$ git reset --hard\nto recover.\n'[39m,
+  stdout: [32m''[39m }
+RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (_http_server.js:194:11)
+    at ServerResponse.writeHead (/home/tkreek/Git/Faraday-Wiki/node_modules/on-headers/index.js:55:19)
+    at ServerResponse.writeHead (/home/tkreek/Git/Faraday-Wiki/node_modules/on-headers/index.js:55:19)
+    at ServerResponse._implicitHeader (_http_server.js:185:8)
+    at ServerResponse.end (/home/tkreek/Git/Faraday-Wiki/node_modules/compression/index.js:103:14)
+    at writeend (/home/tkreek/Git/Faraday-Wiki/node_modules/express-session/index.js:261:22)
+    at ontouch (/home/tkreek/Git/Faraday-Wiki/node_modules/express-session/index.js:348:11)
+    at MongoStore.touch (/home/tkreek/Git/Faraday-Wiki/node_modules/connect-mongo/src/index.js:275:28)
+    at ServerResponse.end (/home/tkreek/Git/Faraday-Wiki/node_modules/express-session/index.js:342:15)
+    at res.sendFile (/home/tkreek/Git/Faraday-Wiki/server/controllers/uploads.js:157:30)
+    at /home/tkreek/Git/Faraday-Wiki/node_modules/express/lib/response.js:419:22
+    at onaborted (/home/tkreek/Git/Faraday-Wiki/node_modules/express/lib/response.js:986:5)
+    at Immediate._onImmediate (/home/tkreek/Git/Faraday-Wiki/node_modules/express/lib/response.js:1026:9)
+    at runCallback (timers.js:794:20)
+    at tryOnImmediate (timers.js:752:5)
+    at processImmediate [as _immediateCallback] (timers.js:729:5)
+Unhandled rejection (<{"code":128,"message":"`git --git-dir=...>, no stack trace)
+2018-11-15T10:10:29.020Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2018-11-15T10:10:29.020Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2018-11-15T10:10:29.021Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Could not resolve host: github.com\n'[39m,
+  stdout: [32m''[39m }
+2019-05-21T11:55:28.806Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-05-21T11:55:28.807Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-05-21T11:55:28.807Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Could not resolve host: github.com\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T05:22:10.259Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T05:22:10.259Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T05:22:10.259Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T05:27:15.410Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T05:27:15.411Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T05:27:15.411Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T05:32:18.514Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T05:32:18.515Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T05:32:18.515Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T05:47:17.586Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T05:47:17.587Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T05:47:17.587Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T05:50:34.366Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T05:50:34.366Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T05:50:34.366Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Could not resolve host: github.com\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T09:52:16.083Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T09:52:16.083Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T09:52:16.083Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T10:32:12.242Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T10:32:12.243Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T10:32:12.243Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-10T10:37:11.251Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-10T10:37:11.251Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-10T10:37:11.252Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-24T00:42:10.514Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-24T00:42:10.514Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-24T00:42:10.515Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-24T00:47:09.522Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-24T00:47:09.522Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-24T00:47:09.522Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-24T00:52:10.578Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-24T00:52:10.578Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-24T00:52:10.579Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-24T01:27:17.970Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-24T01:27:17.970Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-24T01:27:17.971Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-24T01:32:10.834Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-24T01:32:10.834Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-24T01:32:10.835Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2019-07-24T01:42:19.090Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2019-07-24T01:42:19.090Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2019-07-24T01:42:19.091Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Failed to connect to github.com port 443: Connection timed out\n'[39m,
+  stdout: [32m''[39m }
+2020-03-04T08:53:08.803Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-03-04T08:53:08.804Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-03-04T08:53:08.804Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': gnutls_handshake() failed: The TLS connection was non-properly terminated.\n'[39m,
+  stdout: [32m''[39m }
+2020-03-04T09:10:29.571Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-03-04T09:10:29.571Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-03-04T09:10:29.571Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': Empty reply from server\n'[39m,
+  stdout: [32m''[39m }
+2020-04-02T20:15:33.028Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:15:33.028Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:15:33.028Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': The requested URL returned error: 504\n'[39m,
+  stdout: [32m''[39m }
+2020-04-02T20:25:33.032Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:25:33.032Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:25:33.033Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': The requested URL returned error: 504\n'[39m,
+  stdout: [32m''[39m }
+2020-04-02T20:30:33.028Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:30:33.028Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:30:33.029Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': The requested URL returned error: 504\n'[39m,
+  stdout: [32m''[39m }
+2020-04-02T20:35:33.056Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:35:33.056Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:35:33.056Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': The requested URL returned error: 504\n'[39m,
+  stdout: [32m''[39m }
+2020-04-02T20:45:39.023Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:45:39.023Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:45:39.023Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': The requested URL returned error: 504\n'[39m,
+  stdout: [32m''[39m }
+2020-04-02T20:50:01.732Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:50:01.733Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:50:01.733Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'remote: Internal Server Error.\nremote: \nfatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': The requested URL returned error: 500\n'[39m,
+  stdout: [32m''[39m }
+2020-04-02T20:55:01.700Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:55:01.700Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:55:01.701Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{ code: [33m1[39m,
+  message: [32m'`git --git-dir=repo/.git --work-tree=repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'remote: Internal Server Error.\nremote: \nfatal: unable to access \'https://tkreek:Hal2001ibm!github@github.com/FaradayBikes/Faraday-Wiki/\': The requested URL returned error: 500\n'[39m,
+  stdout: [32m''[39m }
+2020-04-11T05:16:36.538Z - [31merror[39m: [SERVER] Unable to fetch from git origin!
+2020-04-11T05:16:36.541Z - [31merror[39m: [SERVER] Unable to push changes to remote Git repository!
